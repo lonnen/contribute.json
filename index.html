@@ -18,6 +18,70 @@
 </head>
 <body>
 
+    <div class="mzp-l-content">
+        <h1>contribute.json</h1>
+        <p>Making open source information easier to access, across projects</p>
+
+        <h1>What is this?</h1>
+        <p>
+        It's a project to find a common standard to describe all active Mozilla websites and projects.
+        </p>
+
+        <h2></h2>
+        <p>
+        You have a skill, say AngularJS or C++, but don't know which projects use this. If you could collect all the keywords
+        from all projects using contribute.json you could easily find out which projects to approach with your friendly skill.
+        </p>
+        <p>
+        You're browsing a site and discover that something is broken. You could just close the tab in anger or you can help out
+        in some ways. Perhaps a good place is to file a bug report.
+        <p>
+        Or find out where the code is and go there directly and make a patch.
+        </p>
+        
+        <p>
+        Or just find out which IRC channel, wiki page or mailing list people on the project hang out on.
+        </p>
+        
+        <p>
+        You're a developer asked to help on a project and you set to work. Instead of asking all the usual questions like "Where
+        is the code?", "Where is the staging server?", "Do we have a mailing list?" you can simply look all this up in the
+        /contribute.json file.
+        </p>
+
+        <h1>How do I use it?</h1>
+        <p>Write a minimal contribute.json file like this:</p>
+        <code>
+          {
+            "name": "contribute.json",
+            "description": "Standard to describe open source projects",
+            "repository": {
+              "url": "https://github.com/mozilla/contribute.json",
+              "license": "MPL2"
+            },
+            "keywords": [
+              "JSON",
+              "Python",
+              "Flask"
+            ]
+          }
+        </code>
+        <h1>Where do I put this?</h1>
+        <p>
+        A file named contribute.json at the root of the repository. If it's a website and you want web-based tools to also find
+        it then serve it up as /contribute.json as well.
+        </p>
+        <h1>
+        mozilla
+        </h1>
+        <p>
+        Portions of this content are ©2013–2014 by individual mozilla.org contributors. Content available under a Creative
+        Commons license.
+        </p>
+        <p>
+        Contribute to this page
+        </p>
+    </div>
 
 </body>
 </html>
